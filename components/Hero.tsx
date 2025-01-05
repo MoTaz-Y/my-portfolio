@@ -34,7 +34,7 @@ const Hero = () => {
             filter={false}
             words={words}
           />
-          <p className="text-center tex-[40px] md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center tex-[40px] md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white-100">
             Hi, I&apos;m Motaz, a Full Stack Developer
           </p>
           <a href="#about">
