@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    img: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -107,7 +108,7 @@ export const InfiniteMovingCards = ({
                 <div className="flex flex-wrap gap-1">
                   <div className="me-3">
                     <img
-                      src="/profile.svg"
+                      src={item.img}
                       alt="profile"
                       className="w-10 h-10 rounded-full"
                     />
