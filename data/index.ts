@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/MoTaz-Y",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/motazyasser_y",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/motaz-yasser",
   },
 ];
