@@ -9,13 +9,6 @@ const Footer = () => {
       className="flex justify-center items-center pb-10 pt-20 w-full"
       id="contact"
     >
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="footer-grid"
-          className="w-full h-full opacity-50"
-        />
-      </div>
       <div className="flex flex-col items-center gap-2">
         <h1 className="heading lg:max-w-[45vw]">
           Ready to take <span className="text-purple"> YOUR </span> digital
