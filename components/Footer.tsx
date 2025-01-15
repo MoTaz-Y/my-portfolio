@@ -27,7 +27,8 @@ const Footer = () => {
       </div>
       <div className="mt-16 flex md:flex-row flex-col items-center justify-between">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 <span className="text-purple"> Motaz</span>
+          Copyright © 2025
+          <span className="text-purple"> MoTaz_Y</span>
         </p>
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map(({ id, img, link }) => (

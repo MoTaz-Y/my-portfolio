@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-2 items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100">
-            Dynamic Web Magic With Next.js
+            Dynamic Web Magic
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -35,7 +35,7 @@ const Hero = () => {
             words={words}
           />
           <p className="text-center tex-[40px] md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white-100">
-            Hi, I&apos;m Motaz, a Full Stack Developer
+            Hi, I&apos;m Motaz, a Full Stack Engineer
           </p>
           <a href="#about">
             <MagicButton
