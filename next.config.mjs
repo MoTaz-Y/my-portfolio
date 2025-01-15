@@ -13,6 +13,7 @@ export default withSentryConfig(
       silent: true,
       org: "iti-nq3",
       project: "javascript-nextjs",
+      optimizeCss: false,
     },
     {
       // For all available options, see:
@@ -81,5 +82,6 @@ export default withSentryConfig(
     // https://docs.sentry.io/product/crons/
     // https://vercel.com/docs/cron-jobs
     automaticVercelMonitors: true,
+    optimizeCss: false,
   }
 );
